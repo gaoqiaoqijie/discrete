@@ -15,7 +15,7 @@ spring:
       max-request-size: 10MB
 # 阿里云oss常量配置
 aliyun:
-  endpoint: oss-cn-hangzhou.aliyuncs.com
-  keyid: LTAI5tCUdE5JhidgoELFF2cH
-  keysecret: uOl46uFtojvJAJeutAulWnx6EBIQ01
-  bucketname: gulixueyuan-edu-001
+  endpoint: 
+  keyid: 
+  keysecret: 
+  bucketname: 
