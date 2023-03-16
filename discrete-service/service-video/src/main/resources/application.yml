@@ -17,6 +17,6 @@ spring:
 aliyun:
   vod:
     file:
-      keyid: LTAI5tCUdE5JhidgoELFF2cH
-      keysecret: uOl46uFtojvJAJeutAulWnx6EBIQ01
-      regionId: cn-shanghai
+      keyid: 
+      keysecret: 
+      regionId: 
