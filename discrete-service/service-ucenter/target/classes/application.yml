@@ -1,0 +1,38 @@
+server:
+  port: 6002
+spring:
+  mail:
+    host: smtp.163.com
+    username: 17683997423@163.com
+    password: URQIBFJLFANKDCNC
+    properties.mail.smtp.ssl.enable: true
+    default-encoding: UTF-8
+  application:
+    name: service-ucenter
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 172.17.0.1:8848
+  datasource: # 配置数据源
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://rm-bp17pz93qi4altl751o.mysql.rds.aliyuncs.com:3306/discrete?serverTimezone=GMT%2B8&characterEncoding=utf-8
+    username: discrete
+    password: Huawei12#$
+  profiles:
+    active: dev # 开发环境配置文件
+  redis:
+    host: 172.17.0.1
+    port: 6379
+    password: 123456
+mybatis-plus:
+  mapper-locations: classpath:com/lc/ucenter/mapper/xml/*.xml
+default-setting:
+  avatar: http://hsunnyc.oss-cn-beijing.aliyuncs.com/avatar/1.jpg
+  passwd: 123456
+  mail:
+    subject: "欢迎注册《离散数学》教学网站！" #邮件标题
+    count-left: "尊敬的用户您好，您正在注册《离散数学》教学网站，您的验证码为"
+    count-right: "！验证码五分钟内有效，请确保是本人操作，不要将验证码泄露给其他人!"
+    from: "<17683997423@163.com>"
+    username: "《离散数学》教学网站"
+

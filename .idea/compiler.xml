@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="discrete-gateway" />
+        <module name="discrete-common" />
+        <module name="service-ucenter" />
+        <module name="service-learning" />
+        <module name="service-home" />
+        <module name="service-qa" />
+        <module name="service-video" />
+        <module name="service-oss" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="service-plan" target="1.8" />
+      <module name="training-common" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="discrete" options="" />
+      <module name="discrete-common" options="-parameters" />
+      <module name="discrete-gateway" options="-parameters" />
+      <module name="discrete-service" options="" />
+      <module name="service-home" options="-parameters" />
+      <module name="service-learning" options="-parameters" />
+      <module name="service-oss" options="-parameters" />
+      <module name="service-plan" options="-parameters" />
+      <module name="service-qa" options="-parameters" />
+      <module name="service-ucenter" options="-parameters" />
+      <module name="service-video" options="-parameters" />
+    </option>
+  </component>
+</project>

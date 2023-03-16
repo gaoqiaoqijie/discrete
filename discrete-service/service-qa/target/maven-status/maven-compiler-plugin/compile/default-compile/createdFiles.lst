@@ -1,0 +1,16 @@
+com\lc\qa\mapper\AnswerMapper.class
+com\lc\qa\entity\TreeAnswer.class
+com\lc\qa\service\QuestionService.class
+com\lc\qa\client\UcenterClient.class
+com\lc\qa\config\SwaggerConfig.class
+com\lc\qa\mapper\QuestionMapper.class
+com\lc\qa\entity\Question.class
+com\lc\qa\controller\AnswerController.class
+com\lc\qa\entity\Answer.class
+com\lc\qa\service\impl\QuestionServiceImpl.class
+com\lc\qa\service\impl\AnswerServiceImpl.class
+com\lc\qa\entity\User.class
+com\lc\qa\service\AnswerService.class
+com\lc\qa\QaApplication.class
+com\lc\qa\entity\SonAnswer.class
+com\lc\qa\controller\QuestionController.class

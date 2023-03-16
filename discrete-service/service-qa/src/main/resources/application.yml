@@ -1,0 +1,19 @@
+server:
+  port: 6007
+spring:
+  application:
+    name: service-qa
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 172.17.0.1:8848 # 配置nacos注册中心地址
+  datasource: # 配置数据源
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://rm-bp17pz93qi4altl751o.mysql.rds.aliyuncs.com:3306/discrete?serverTimezone=GMT%2B8&characterEncoding=utf-8
+    username: discrete
+    password: Huawei12#$
+  profiles:
+    active: dev # 开发环境配置文件
+
+mybatis-plus:
+  mapper-locations: classpath:com/lc/qa/mapper/xml/*.xml
