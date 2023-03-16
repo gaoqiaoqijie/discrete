@@ -36,7 +36,6 @@ SpringCloud、Nacos、SpringBoot、Redis、MyBatis-Plus、Vue、element-ui、Nux
 2. service-home：首页微服务，提供首页轮播图查询
 3. service-learning：学习中心，提供课程、章节相关功能
 4. service-oss：与阿里云oss对接，提供文件上传功能
-5. service-plan：培训计划相关功能
 6. service-qa：问答相关功能
 7. service-ucenter：用户中心，登录、注册相关功能
 8. service-video：对接阿里云视频点播服务，提供视频上传、播放凭证获取，视频信息获取相关功能
