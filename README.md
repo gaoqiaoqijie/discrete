@@ -4,7 +4,8 @@
 毕业设计
 
 毕设原型：根据b站视频教程所写，链接：https://www.bilibili.com/video/BV1dQ4y1A75e
-基于https://github.com/hczs/training进行二次开发
+
+基于https://github.com/hczs/training 进行二次开发
 
 
 
