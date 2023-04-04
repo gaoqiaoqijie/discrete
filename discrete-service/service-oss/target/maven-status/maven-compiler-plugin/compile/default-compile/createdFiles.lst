@@ -1,6 +1,0 @@
-com\lc\oss\config\SwaggerConfig.class
-com\lc\oss\controller\FileController.class
-com\lc\oss\utils\ConstantPropertiesUtil.class
-com\lc\oss\service\FileService.class
-com\lc\oss\OssApplication.class
-com\lc\oss\service\impl\FileServiceImpl.class
