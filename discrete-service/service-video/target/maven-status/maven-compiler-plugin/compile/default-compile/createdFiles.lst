@@ -1,7 +1,0 @@
-com\lc\video\config\SwaggerConfig.class
-com\lc\video\service\impl\VideoServiceImpl.class
-com\lc\video\VideoApplication.class
-com\lc\video\utils\AliyunVodUtils.class
-com\lc\video\service\VideoService.class
-com\lc\video\utils\ConstantPropertiesUtil.class
-com\lc\video\controller\VideoController.class
