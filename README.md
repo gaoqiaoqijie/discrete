@@ -52,7 +52,7 @@ SpringCloud、Nacos、SpringBoot、Redis、MyBatis-Plus、Vue、element-ui、Nux
 
 4. redis，可以准备云服务器或虚拟机来装一个redis，redis在本项目中有两个作用，首页优化和邮箱验证码存储
 
-5. 邮箱，本项目使用发验证码使用了发送邮件的形式，所以需要准备一个邮箱并且开通POP3/IMAP/SMTP服务，配置单独的授权密码，然后将邮箱和授权密码填进service-ucenter服务中的resources/config/mail.setting文件中
+5. 邮箱，本项目使用发验证码使用了发送邮件的形式，所以需要准备一个邮箱并且开通POP3/IMAP/SMTP服务，配置单独的授权密码，然后将邮箱和授权密码填进service-ucenter服务中的application.yml文件中
 6. 开通阿里云视频点播服务，根据官方或网上的教程创建key配置，并且配置到service-video服务的application.yml中
 
 #### 怎么使用
